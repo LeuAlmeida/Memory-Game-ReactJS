@@ -10,7 +10,7 @@ const styles = {
 }
 
 const Dashboard = ({ children, classes }) => (
-    <Grid className={classes.root} container>{children}</Grid>
+    <Grid className={classes.root} alignItems="center" justify="center" container>{children}</Grid>
 )
 
 export default withStyles(styles)(Dashboard)
