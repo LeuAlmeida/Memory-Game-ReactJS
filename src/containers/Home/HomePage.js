@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Dashboard, DashboardMenu } from "../../components"
+import { Dashboard, DashboardMenu, DashboardButton } from "../../components"
 
 const HomePage = () => (
     <Dashboard>
-        <DashboardMenu>
-            <h1>Olá mundo</h1>
+        <DashboardMenu title="Memory Game">
+            <DashboardButton>Start</DashboardButton>
         </DashboardMenu>
     </Dashboard>
 )
