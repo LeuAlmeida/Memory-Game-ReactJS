@@ -1,7 +1,13 @@
 import React from 'react'
 
+import { Dashboard, DashboardMenu } from "../../components"
+
 const HomePage = () => (
-    <h1>Olá mundo</h1>
+    <Dashboard>
+        <DashboardMenu>
+            <h1>Olá mundo</h1>
+        </DashboardMenu>
+    </Dashboard>
 )
 
 export default HomePage
