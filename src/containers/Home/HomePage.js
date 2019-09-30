@@ -5,7 +5,7 @@ import { Dashboard, DashboardMenu, DashboardButton } from "../../components"
 const HomePage = () => (
     <Dashboard>
         <DashboardMenu title="Memory Game">
-            <DashboardButton>Start</DashboardButton>
+            <DashboardButton to="/game">Start</DashboardButton>
         </DashboardMenu>
     </Dashboard>
 )
